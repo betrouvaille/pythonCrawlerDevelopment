@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49f26cc2-1fe0-4b62-94e2-a77a2213cde1" name="Default Changelist" comment="Update README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/lfl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/.idea/pachong_exe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/nongchang.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/text1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/text1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/动物农场/ 第一章.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/动物农场/ 第七章.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/动物农场/ 第三章.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/动物农场/ 第九章.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/动物农场/ 第二章.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/动物农场/ 第五章.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/动物农场/ 第八章.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/动物农场/ 第六章.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/动物农场/ 第十章.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal_farm/动物农场/ 第四章.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animal_farm/text1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Animal_farm/ywk_practice.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Animal_farm/nongchang.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+            <state relative-caret-position="446">
+              <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="26" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -45,34 +25,59 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Animal_farm/ywk_practice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>1099</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Animal_farm/.idea/pachong_exe.iml" />
-        <option value="$PROJECT_DIR$/.idea/lfl.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/Animal_farm/nongchang.py" />
+        <option value="$PROJECT_DIR$/get_damai/get_damai.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/test" />
+        <option value="$PROJECT_DIR$/Animal_farm/text1.html" />
+        <option value="$PROJECT_DIR$/Animal_farm/text1.py" />
+        <option value="$PROJECT_DIR$/Animal_farm/ywk_practice.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="226" />
-    <option name="y" value="46" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="814" />
+    <option name="height" value="574" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,6 +94,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,6 +103,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -115,6 +122,58 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.text1">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lfl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="text1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lfl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Animal_farm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\python_start_20191206\lfl\Animal_farm\ywk_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.text1" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -125,71 +184,83 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575897823458</updated>
-      <workItem from="1575897824697" duration="879000" />
+      <workItem from="1575897824697" duration="2854000" />
+      <workItem from="1575900744439" duration="289000" />
+      <workItem from="1575943843524" duration="4330000" />
+      <workItem from="1576135683275" duration="1966000" />
+      <workItem from="1576144512634" duration="7000" />
+      <workItem from="1576218541477" duration="4807000" />
+      <workItem from="1576230329808" duration="1484000" />
+      <workItem from="1576551984693" duration="5422000" />
     </task>
+    <task id="LOCAL-00001" summary="Update README.md">
+      <created>1575898889704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575898889704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update README.md">
+      <created>1576137519300</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576137519300</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update README.md">
+      <created>1576576057104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576576057104</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="879000" />
+    <option name="totallyTimeSpent" value="21159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10660981" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.28416485" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23535791" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32939914" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26138827" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lfl$text1.coverage" NAME="text1 Coverage Results" MODIFIED="1576575887569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Animal_farm" />
+    <SUITE FILE_PATH="coverage/lfl$test.coverage" NAME="test Coverage Results" MODIFIED="1576220446135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Animal_farm/动物农场/ 第一章.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter6/mongodb_try.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter6/crawler_novel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" lean-forward="true" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter6/redis_try.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -198,12 +269,258 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/mongodb_try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/crawler_novel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/xpath_bs4_damai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/get_damai/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_damai/get_damai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animal_farm/text1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="3190" column="11" selection-start-line="3190" selection-start-column="6" selection-end-line="3190" selection-end-column="11" />
+          <folding>
+            <element signature="e#13200#13229#0" expanded="true" />
+            <element signature="e#13830#13859#0" expanded="true" />
+            <element signature="e#14441#14470#0" expanded="true" />
+            <element signature="e#15071#15100#0" expanded="true" />
+            <element signature="e#15636#15665#0" expanded="true" />
+            <element signature="e#16196#16225#0" expanded="true" />
+            <element signature="e#16804#16833#0" expanded="true" />
+            <element signature="e#17413#17442#0" expanded="true" />
+            <element signature="e#18013#18042#0" expanded="true" />
+            <element signature="e#18618#18647#0" expanded="true" />
+            <element signature="e#19223#19252#0" expanded="true" />
+            <element signature="e#19822#19851#0" expanded="true" />
+            <element signature="e#20430#20459#0" expanded="true" />
+            <element signature="e#21076#21105#0" expanded="true" />
+            <element signature="e#21724#21753#0" expanded="true" />
+            <element signature="e#22369#22398#0" expanded="true" />
+            <element signature="e#22961#22990#0" expanded="true" />
+            <element signature="e#23519#23548#0" expanded="true" />
+            <element signature="e#24078#24107#0" expanded="true" />
+            <element signature="e#24692#24721#0" expanded="true" />
+            <element signature="e#25322#25351#0" expanded="true" />
+            <element signature="e#25886#25915#0" expanded="true" />
+            <element signature="e#26490#26519#0" expanded="true" />
+            <element signature="e#27045#27074#0" expanded="true" />
+            <element signature="e#27667#27696#0" expanded="true" />
+            <element signature="e#28231#28260#0" expanded="true" />
+            <element signature="e#28791#28820#0" expanded="true" />
+            <element signature="e#29396#29425#0" expanded="true" />
+            <element signature="e#29996#30025#0" expanded="true" />
+            <element signature="e#30559#30588#0" expanded="true" />
+            <element signature="e#31124#31153#0" expanded="true" />
+            <element signature="e#31700#31729#0" expanded="true" />
+            <element signature="e#32302#32331#0" expanded="true" />
+            <element signature="e#32929#32958#0" expanded="true" />
+            <element signature="e#33531#33560#0" expanded="true" />
+            <element signature="e#34102#34131#0" expanded="true" />
+            <element signature="e#34663#34692#0" expanded="true" />
+            <element signature="e#35257#35286#0" expanded="true" />
+            <element signature="e#35852#35881#0" expanded="true" />
+            <element signature="e#36444#36473#0" expanded="true" />
+            <element signature="e#37035#37064#0" expanded="true" />
+            <element signature="e#37634#37663#0" expanded="true" />
+            <element signature="e#38239#38268#0" expanded="true" />
+            <element signature="e#38842#38871#0" expanded="true" />
+            <element signature="e#39464#39493#0" expanded="true" />
+            <element signature="e#40072#40101#0" expanded="true" />
+            <element signature="e#40644#40673#0" expanded="true" />
+            <element signature="e#41253#41282#0" expanded="true" />
+            <element signature="e#41827#41856#0" expanded="true" />
+            <element signature="e#42377#42406#0" expanded="true" />
+            <element signature="e#42978#43007#0" expanded="true" />
+            <element signature="e#43572#43601#0" expanded="true" />
+            <element signature="e#44176#44205#0" expanded="true" />
+            <element signature="e#44788#44817#0" expanded="true" />
+            <element signature="e#45401#45430#0" expanded="true" />
+            <element signature="e#45987#46016#0" expanded="true" />
+            <element signature="e#46597#46626#0" expanded="true" />
+            <element signature="e#47222#47251#0" expanded="true" />
+            <element signature="e#47830#47859#0" expanded="true" />
+            <element signature="e#48396#48425#0" expanded="true" />
+            <element signature="e#48976#49005#0" expanded="true" />
+            <element signature="e#49524#49553#0" expanded="true" />
+            <element signature="e#50123#50152#0" expanded="true" />
+            <element signature="e#50735#50764#0" expanded="true" />
+            <element signature="e#51301#51330#0" expanded="true" />
+            <element signature="e#51861#51890#0" expanded="true" />
+            <element signature="e#52466#52495#0" expanded="true" />
+            <element signature="e#53055#53084#0" expanded="true" />
+            <element signature="e#53696#53725#0" expanded="true" />
+            <element signature="e#54328#54357#0" expanded="true" />
+            <element signature="e#54944#54973#0" expanded="true" />
+            <element signature="e#55501#55530#0" expanded="true" />
+            <element signature="e#56007#56036#0" expanded="true" />
+            <element signature="e#56528#56557#0" expanded="true" />
+            <element signature="e#57078#57107#0" expanded="true" />
+            <element signature="e#57569#57598#0" expanded="true" />
+            <element signature="e#58051#58080#0" expanded="true" />
+            <element signature="e#58589#58618#0" expanded="true" />
+            <element signature="e#59125#59154#0" expanded="true" />
+            <element signature="e#59657#59686#0" expanded="true" />
+            <element signature="e#60179#60208#0" expanded="true" />
+            <element signature="e#60677#60706#0" expanded="true" />
+            <element signature="e#61191#61220#0" expanded="true" />
+            <element signature="e#61694#61723#0" expanded="true" />
+            <element signature="e#62231#62260#0" expanded="true" />
+            <element signature="e#62754#62783#0" expanded="true" />
+            <element signature="e#63269#63298#0" expanded="true" />
+            <element signature="e#63778#63807#0" expanded="true" />
+            <element signature="e#64273#64302#0" expanded="true" />
+            <element signature="e#64778#64807#0" expanded="true" />
+            <element signature="e#65276#65305#0" expanded="true" />
+            <element signature="e#65774#65803#0" expanded="true" />
+            <element signature="e#66254#66283#0" expanded="true" />
+            <element signature="e#66731#66760#0" expanded="true" />
+            <element signature="e#67267#67296#0" expanded="true" />
+            <element signature="e#67781#67810#0" expanded="true" />
+            <element signature="e#68320#68349#0" expanded="true" />
+            <element signature="e#68853#68882#0" expanded="true" />
+            <element signature="e#69351#69380#0" expanded="true" />
+            <element signature="e#69875#69904#0" expanded="true" />
+            <element signature="e#70445#70474#0" expanded="true" />
+            <element signature="e#70976#71005#0" expanded="true" />
+            <element signature="e#71460#71489#0" expanded="true" />
+            <element signature="e#71931#71960#0" expanded="true" />
+            <element signature="e#72452#72481#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#100381#100387#0" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#12;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#12;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#16;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#16;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#17;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#17;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#18;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#18;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#19;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#19;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#20;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#20;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#21;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#21;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#22;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#22;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#23;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#23;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#24;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#24;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#25;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#25;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#26;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#26;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#27;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#27;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#28;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#28;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#29;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#29;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Animal_farm/nongchang.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        <state relative-caret-position="446">
+          <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="26" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animal_farm/ywk_practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
