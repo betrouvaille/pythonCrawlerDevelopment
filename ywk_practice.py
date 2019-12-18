@@ -1,6 +1,8 @@
 import time
 import requests
 from multiprocessing.dummy import Pool
+
+
 # # html = requests.get('https://www.baidu.com').content.decode()
 # # print(html)
 
@@ -70,14 +72,37 @@ def get_suning():
     苏宁价格json
     :return:
     """
-    url = 'https://ds.suning.com/ds/generalForTile/000000010597918588____R1901001_000060021,' \
-          '000000011346304380____R1901001_000060021,000000011177564390____R1901001_000060864,' \
-          '000000011116456488____R1901001_000060DER,000000011222349674____R1901001_000066138,' \
-          '000000011446042332____R1901001_000060864,000000010673154488____R1901001_000066138,' \
-          '000000011210598958____R1901001_000060DER,000000000690105194____R1901001_000060021,' \
+    url = 'https://ds.suning.com/ds/generalForTile/' \
           '000000011346304317____R1901001_000060021-010-2-0000000000-1--ds0000000003792.jsonp?callback=ds0000000003792'
+    url2 = 'https://ds.suning.com/ds/generalForTile/' \
+           '000000010989586988____R1901001_000060864,' \
+           '000000010606649859____R1901001_000060021,' \
+           '000000010973073407____R1901001_000060864,' \
+           '000000011356354998____R1901001_000066138,' \
+           '000000010657713259____R1901001_000060864,' \
+           '000000011344612553____R1901001_000060DER,' \
+           '000000011382632596____R1901001_000060021,' \
+           '000000010657749544____R1901001_000060864,' \
+           '000000011239124433____R1901001_00006J675,' \
+           '000000010627906708____R1901001_000060864-010-2-0000000000-1--ds0000000006859.jsonp?callback=ds0000000006859'
     url_json = requests.get(url).content.decode()
-    print(url_json)
+    print(type(url_json))
+
+
+from selenium import webdriver
+
+
+def get_suning_code():
+    """
+    用selenium模拟浏览器获取内容
+    :return:
+    """
+    driver = webdriver.Chrome(r'E:\chromedriver_win32\chromedriver.exe')
+    driver.get('https://list.suning.com/0-20006-0.html?safp=d488778a.46601.searchMain.2&safc=cate.0.0')
+    js = "var q=document.documentElement.scrollTop=100000"
+    driver.execute_script(js)
+
+    time.sleep(100)
 
 
 if __name__ == '__main__':
