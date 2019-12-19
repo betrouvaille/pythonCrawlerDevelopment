@@ -100,9 +100,28 @@ def get_suning_code():
     driver = webdriver.Chrome(r'E:\chromedriver_win32\chromedriver.exe')
     driver.get('https://list.suning.com/0-20006-0.html?safp=d488778a.46601.searchMain.2&safc=cate.0.0')
     # js = "var q=document.documentElement.scrollTop=100000"
-    driver.execute_script("window.scrollTo(0,10000)")
+    # driver.execute_script("window.scrollTo(0,600000000)")
+    driver.execute_script(""" 
+            (function () { 
+                var y = document.body.scrollTop; 
+                var step = 100; 
+                window.scroll(0, y); 
+                function f() { 
+                    if (y < document.body.scrollHeight) { 
+                        y += step; 
+                        window.scroll(0, y); 
+                        setTimeout(f, 50); 
+                    }
+                    else { 
+                        window.scroll(0, y); 
+                        document.title += "scroll-done"; 
+                    } 
+                } 
+                setTimeout(f, 1000); 
+            })(); 
+            """)
 
-    time.sleep(10)
+    time.sleep(1000)
 
 
 if __name__ == '__main__':

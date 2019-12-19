@@ -38,25 +38,42 @@ def get_suning_detail_code(url):
     :return:详情页面源代码list
     """
     driver = webdriver.Chrome(r'E:\chromedriver_win32\chromedriver.exe')
-    url_list = get_suning_url(start_url)
     html_code_list = []
-    for url in url_list:
-        url = 'http:' + url
-        print(url)
-        driver.get(url)
-        driver.execute_script("window.scrollTo(0,10000)")  # 翻到浏览器底部等待加载完成
-        time.sleep(2)
-        html_code = get_suning_html(url)
-        html_code_list.append(html_code)
+    url = 'http:' + url
+    driver.get(url)
+    # 翻到浏览器底部等待加载完成
+    driver.execute_script(""" 
+                (function () { 
+                    var y = document.body.scrollTop; 
+                    var step = 100; 
+                    window.scroll(0, y); 
+                    function f() { 
+                        if (y < document.body.scrollHeight) { 
+                            y += step; 
+                            window.scroll(0, y); 
+                            setTimeout(f, 50); 
+                        }
+                        else { 
+                            window.scroll(0, y); 
+                            document.title += "scroll-done"; 
+                        } 
+                    } 
+                    setTimeout(f, 1000); 
+                })(); 
+                """)
+    time.sleep(1)
+    html_code = get_suning_html(url)
+    html_code_list.append(html_code)
+    driver.close()
     return html_code_list
 
 
-def get_suning_detail(html_code):
+def get_suning_detail(url):
     """
-    开始获取数据，商品标题，价格，参数，等
+    开始获取数据，商品标题，参数，等
     :return:
     """
-    html_code = get_suning_detail_code()
+    html_code = get_suning_detail_code(url)
     selector = lxml.html.fromstring(html_code)
     goods_id = selector.xpath('//*[@id="product-list"]/ul/li/@id')
     print(goods_id)
@@ -64,6 +81,6 @@ def get_suning_detail(html_code):
 
 
 if __name__ == '__main__':
-    html_code_list = get_suning_detail_code()
+    url_list = get_suning_url(start_url)
     pool = Pool(4)
-    pool.map(get_suning_detail, html_code_list)
+    pool.map(get_suning_detail_code, url_list)
