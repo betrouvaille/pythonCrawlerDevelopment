@@ -1,6 +1,7 @@
 import time
 import requests
 from multiprocessing.dummy import Pool
+import lxml.html
 
 
 # # html = requests.get('https://www.baidu.com').content.decode()
@@ -124,5 +125,13 @@ def get_suning_code():
     time.sleep(1000)
 
 
+def xpath_test():
+    url = 'https://list.suning.com/0-506574-0.html?safp=d488778a.46601.searchMain.92&safc=cate.0.0'
+    html = requests.get(url).content.decode()
+    selector = lxml.html.fromstring(html)
+    test = selector.xpath('//*[@id="0070941117-11507557649"]/div/div/div[9]')
+    print(test)
+
+
 if __name__ == '__main__':
-    get_suning_code()
+    xpath_test()
