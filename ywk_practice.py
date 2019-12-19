@@ -99,11 +99,11 @@ def get_suning_code():
     """
     driver = webdriver.Chrome(r'E:\chromedriver_win32\chromedriver.exe')
     driver.get('https://list.suning.com/0-20006-0.html?safp=d488778a.46601.searchMain.2&safc=cate.0.0')
-    js = "var q=document.documentElement.scrollTop=100000"
-    driver.execute_script(js)
+    # js = "var q=document.documentElement.scrollTop=100000"
+    driver.execute_script("window.scrollTo(0,10000)")
 
-    time.sleep(100)
+    time.sleep(10)
 
 
 if __name__ == '__main__':
-    get_suning()
+    get_suning_code()
