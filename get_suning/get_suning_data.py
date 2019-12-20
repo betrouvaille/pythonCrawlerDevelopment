@@ -25,7 +25,16 @@ def get_suning_html(url):
     :param url: 获取源代码目标url
     :return: 网页源代码
     """
-    html = requests.get(url)
+    headers = {
+        'Accept: */*',
+        'Accept-Encoding: gzip, deflate, br',
+        'Accept-Language: zh-CN,zh;q=0.9',
+        'Connection: keep-alive',
+        'Host: ds.suning.com',
+        'Referer: https://list.suning.com/0-336522-0.html?safp=d488778a.46601.searchMain.16&safc=cate.0.0',
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'
+    }
+    html = requests.get(url, headers=headers)
     return html.content.decode()
 
 
@@ -57,45 +66,68 @@ def get_suning_detail_code(url):
     # 正则匹配出总共多少页
     selector = lxml.html.fromstring(html_code)
     page = str(selector.xpath('//*[@id="bottom_pager"]/div/span[3]/text()'))
-    page_num = int(re.findall(r"\d+\.?\d*", page)[0])
-    html_code_list = []
-    for page_n in range(1, page_num + 1):
-        if page_n == 1:
-            # 翻到浏览器底部等待加载完成
-            driver.execute_script(""" 
-                        (function () { 
-                            var y = document.body.scrollTop; 
-                            var step = 100; 
-                            window.scroll(0, y); 
-                            function f() { 
-                                if (y < document.body.scrollHeight) { 
-                                    y += step; 
-                                    window.scroll(0, y); 
-                                    setTimeout(f, 50); 
-                                }
-                                else { 
-                                    window.scroll(0, y); 
-                                    document.title += "scroll-done"; 
+    if page == '':
+        print('该品类无商品')
+    else:
+        page_num = int(re.findall(r"\d+\.?\d*", page)[0])
+        html_code_list = []
+        for page_n in range(1, page_num + 1):
+            if page_n == 1:
+                # 翻到浏览器底部等待加载完成
+                driver.execute_script(""" 
+                            (function () { 
+                                var y = document.body.scrollTop; 
+                                var step = 100; 
+                                window.scroll(0, y); 
+                                function f() { 
+                                    if (y < document.body.scrollHeight) { 
+                                        y += step; 
+                                        window.scroll(0, y); 
+                                        setTimeout(f, 50); 
+                                    }
+                                    else { 
+                                        window.scroll(0, y); 
+                                        document.title += "scroll-done"; 
+                                    } 
                                 } 
-                            } 
-                            setTimeout(f, 1000); 
-                        })(); 
-                        """)
-            time.sleep(1)
-            html_code = get_suning_html(url)
-            html_code_list.append(html_code)
-        else:
-            # 找到页码输入框，输入页码，从2开始
-            input_f = driver.find_element_by_id('bottomPage')
-            # 找到确定按钮，点击确定
-            submit = driver.find_element_by_class_name('page-more ensure')
-            input_f.clear()
-            input_f.send_keys(page_n)
-            time.sleep(10)
-            submit.click()
-            html_code = get_suning_html(url)
-            html_code_list.append(html_code)
-        driver.close()
+                                setTimeout(f, 1000); 
+                            })(); 
+                            """)
+                time.sleep(1)
+                html_code = get_suning_html(url)
+                html_code_list.append(html_code)
+            else:
+                # 找到页码输入框，输入页码，从2开始
+                input_f = driver.find_element_by_id('bottomPage')
+                # 找到确定按钮，点击确定
+                submit = driver.find_element_by_class_name('page-more ensure')
+                input_f.clear()
+                input_f.send_keys(page_n)
+                time.sleep(10)
+                submit.click()
+                driver.execute_script(""" 
+                                        (function () { 
+                                            var y = document.body.scrollTop; 
+                                            var step = 100; 
+                                            window.scroll(0, y); 
+                                            function f() { 
+                                                if (y < document.body.scrollHeight) { 
+                                                    y += step; 
+                                                    window.scroll(0, y); 
+                                                    setTimeout(f, 50); 
+                                                }
+                                                else { 
+                                                    window.scroll(0, y); 
+                                                    document.title += "scroll-done"; 
+                                                } 
+                                            } 
+                                            setTimeout(f, 1000); 
+                                        })(); 
+                                        """)
+                time.sleep(1)
+                html_code = get_suning_html(url)
+                html_code_list.append(html_code)
+            driver.close()
     return html_code_list
 
 
