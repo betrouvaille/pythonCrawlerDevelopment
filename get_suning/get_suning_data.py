@@ -87,13 +87,15 @@ def get_suning_detail_code(url):
         else:
             # 找到页码输入框，输入页码，从2开始
             input_f = driver.find_element_by_id('bottomPage')
-            input_f.send_keys(page_n)
             # 找到确定按钮，点击确定
             submit = driver.find_element_by_class_name('page-more ensure')
+            input_f.clear()
+            input_f.send_keys(page_n)
+            time.sleep(10)
             submit.click()
             html_code = get_suning_html(url)
             html_code_list.append(html_code)
-    driver.close()
+        driver.close()
     return html_code_list
 
 

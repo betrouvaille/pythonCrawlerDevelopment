@@ -139,7 +139,10 @@ def xpath_test():
     input_f = driver.find_element_by_id('bottomPage')
     # 找到确定按钮，点击确定
     submit = driver.find_element_by_xpath('//*[@id="bottom_pager"]/div/a[7]')
+    input_f.clear()
     input_f.send_keys(10)
+    time.sleep(10)
+    print('点击')
     submit.click()
     time.sleep(200)
 
