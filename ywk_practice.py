@@ -1,3 +1,4 @@
+import re
 import time
 import requests
 from multiprocessing.dummy import Pool
@@ -126,11 +127,21 @@ def get_suning_code():
 
 
 def xpath_test():
-    url = 'https://list.suning.com/0-506574-0.html?safp=d488778a.46601.searchMain.92&safc=cate.0.0'
-    html = requests.get(url).content.decode()
-    selector = lxml.html.fromstring(html)
-    test = selector.xpath('//*[@id="0070941117-11507557649"]/div/div/div[9]')
-    print(test)
+    url = 'https://list.suning.com/0-20006-0.html?safp=d488778a.46601.searchMain.2&safc=cate.0.0'
+    # html = requests.get(url).content.decode()
+    # selector = lxml.html.fromstring(html)
+    # test = str(selector.xpath('//*[@id="bottom_pager"]/div/span[3]/text()'))
+    # text_block =int(re.findall(r"\d+\.?\d*", test)[0])
+    # print(type(text_block))
+    # 找到页码输入框，输入页码，从2开始
+    driver = webdriver.Chrome(r'E:\chromedriver_win32\chromedriver.exe')
+    driver.get(url)
+    input_f = driver.find_element_by_id('bottomPage')
+    # 找到确定按钮，点击确定
+    submit = driver.find_element_by_xpath('//*[@id="bottom_pager"]/div/a[7]')
+    input_f.send_keys(10)
+    submit.click()
+    time.sleep(200)
 
 
 if __name__ == '__main__':
