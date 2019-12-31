@@ -128,10 +128,40 @@ def get_suning_code():
 
 def xpath_test():
     url = 'https://list.suning.com/0-20006-0.html?safp=d488778a.46601.searchMain.2&safc=cate.0.0'
-    html = requests.get(url).content.decode()
+
+
+
+    # test = str(selector.xpath('//*[@id="bottom_pager"]/div/span[3]/text()'))
+    # text_block =int(re.findall(r"\d+\.?\d*", test)[0])
+    # print(text_block)
+    # # 找到页码输入框，输入页码，从2开始
+    driver = webdriver.Chrome(r'E:\chromedriver_win32\chromedriver.exe')
+    driver.get(url)
+    driver.execute_script(""" 
+                                (function () { 
+                                    var y = document.body.scrollTop; 
+                                    var step = 100; 
+                                    window.scroll(0, y); 
+                                    function f() { 
+                                        if (y < document.body.scrollHeight) { 
+                                            y += step; 
+                                            window.scroll(0, y); 
+                                            setTimeout(f, 50); 
+                                        }
+                                        else { 
+                                            window.scroll(0, y); 
+                                            document.title += "scroll-done"; 
+                                        } 
+                                    } 
+                                    setTimeout(f, 1000); 
+                                })(); 
+                                """)
+    time.sleep(8)
+    html = driver.page_source
     selector = lxml.html.fromstring(html)
     # 商品id
     goods_id = selector.xpath('//*[@id="product-list"]/ul/li/@id')
+
     for id in goods_id:
         # # 商品id
         goods_id = id
@@ -143,20 +173,11 @@ def xpath_test():
         feature = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[3]/em/text()'.format(id))
         goods_feature = "+".join(feature)
         # 评价条数
-        evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))[0]
-        print('商品id:', goods_id,
-              '商品标题：', goods_title,
-              '商品卖点：', goods_selling_point,
-              '商品特点：', goods_feature,
-              '商品评价条数：', evaluation_num)
-
-
-    # test = str(selector.xpath('//*[@id="bottom_pager"]/div/span[3]/text()'))
-    # text_block =int(re.findall(r"\d+\.?\d*", test)[0])
-    # print(text_block)
-    # # 找到页码输入框，输入页码，从2开始
-    # driver = webdriver.Chrome(r'E:\chromedriver_win32\chromedriver.exe')
-    # driver.get(url)
+        try:
+            evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))[0]
+        except IndexError:
+            evaluation_num = '暂无评价'
+        print(goods_id)
     # input_f = driver.find_element_by_id('bottomPage')
     # # 找到确定按钮，点击确定
     # submit = driver.find_element_by_xpath('//*[@id="bottom_pager"]/div/a[7]')

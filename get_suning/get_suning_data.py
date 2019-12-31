@@ -125,9 +125,9 @@ def get_suning_detail_code(url):
                                 setTimeout(f, 1000); 
                             })(); 
                             """)
-                time.sleep(5)
-                html_code = get_suning_html(url)
-                print(html_code)
+                time.sleep(8)
+                html_code = driver.page_source
+                get_suning_detail(html_code)
                 # 找到页码输入框，输入页码，从2开始
                 input_f = driver.find_element_by_id('bottomPage')
                 time.sleep(5)
@@ -139,19 +139,17 @@ def get_suning_detail_code(url):
                 submit.click()
                 time.sleep(10)
             driver.close()
-    # return html_code_list
 
 
-def get_suning_detail(url):
+def get_suning_detail(html_code):
     """
     开始获取数据，商品标题，参数，等
     :return:
     """
-    html_code = get_suning_detail_code(url)
     selector = lxml.html.fromstring(html_code)
     goods_id = selector.xpath('//*[@id="product-list"]/ul/li/@id')
     for id in goods_id:
-        # 商品id
+        # # 商品id
         goods_id = id
         # 商品标题
         goods_title = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/text()'.format(id))[0]
@@ -161,7 +159,10 @@ def get_suning_detail(url):
         feature = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[3]/em/text()'.format(id))
         goods_feature = "+".join(feature)
         # 评价条数
-        evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))[0]
+        try:
+            evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))[0]
+        except IndexError:
+            evaluation_num = '暂无评价'
 
     return goods_id, goods_title, goods_selling_point, goods_feature, evaluation_num
 
