@@ -130,10 +130,31 @@ def xpath_test():
     url = 'https://list.suning.com/0-20006-0.html?safp=d488778a.46601.searchMain.2&safc=cate.0.0'
     html = requests.get(url).content.decode()
     selector = lxml.html.fromstring(html)
-    test = str(selector.xpath('//*[@id="bottom_pager"]/div/span[3]/text()'))
-    text_block =int(re.findall(r"\d+\.?\d*", test)[0])
-    print(text_block)
-    # 找到页码输入框，输入页码，从2开始
+    # 商品id
+    goods_id = selector.xpath('//*[@id="product-list"]/ul/li/@id')
+    print(goods_id)
+    for id in goods_id:
+        # # 商品id
+        goods_id = id
+        # 商品标题
+        goods_title = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/text()'.format(id))
+        # 商品卖点
+        goods_selling_point = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/em/text()'.format(id))
+        # 商品特征2
+        goods_feature = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[3]/em/text()'.format(id))
+        # 评价条数
+        evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))
+        print('商品id:', goods_id,
+              '商品标题：', goods_title,
+              '商品卖点：', goods_selling_point,
+              '商品特点：', goods_feature,
+              '商品评价条数：', evaluation_num)
+
+
+    # test = str(selector.xpath('//*[@id="bottom_pager"]/div/span[3]/text()'))
+    # text_block =int(re.findall(r"\d+\.?\d*", test)[0])
+    # print(text_block)
+    # # 找到页码输入框，输入页码，从2开始
     # driver = webdriver.Chrome(r'E:\chromedriver_win32\chromedriver.exe')
     # driver.get(url)
     # input_f = driver.find_element_by_id('bottomPage')
