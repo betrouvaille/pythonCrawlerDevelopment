@@ -61,25 +61,26 @@ def get_suning_detail_code(url):
     url = 'http:' + url
     print(url)
     driver.get(url)
+    # 滚动操作
     driver.execute_script(""" 
-                                (function () { 
-                                    var y = document.body.scrollTop; 
-                                    var step = 100; 
+                        (function () { 
+                            var y = document.body.scrollTop; 
+                            var step = 100; 
+                            window.scroll(0, y); 
+                            function f() { 
+                                if (y < document.body.scrollHeight) { 
+                                    y += step; 
                                     window.scroll(0, y); 
-                                    function f() { 
-                                        if (y < document.body.scrollHeight) { 
-                                            y += step; 
-                                            window.scroll(0, y); 
-                                            setTimeout(f, 50); 
-                                        }
-                                        else { 
-                                            window.scroll(0, y); 
-                                            document.title += "scroll-done"; 
-                                        } 
-                                    } 
-                                    setTimeout(f, 1000); 
-                                })(); 
-                                """)
+                                    setTimeout(f, 50); 
+                                }
+                                else { 
+                                    window.scroll(0, y); 
+                                    document.title += "scroll-done"; 
+                                } 
+                            } 
+                            setTimeout(f, 1000); 
+                        })(); 
+                        """)
     time.sleep(1)
     html_code = get_suning_html(url)
 
@@ -89,10 +90,10 @@ def get_suning_detail_code(url):
     page_have = selector.xpath('//*[@id="bottom_pager"]/div/span[3]')
     page_have2 = selector.xpath('//*[@id="bottomPage"]')
     if len(page_have) == 0:
-        #获取当前页信息
+        # 获取当前页信息
         pass
     elif len(page_have2) == 0:
-        #看有几页，一定是5页以下
+        # 看有几页，一定是5页以下
         pass
     else:
         page = selector.xpath('//*[@id="bottom_pager"]/div/span[3]/text()')
@@ -104,6 +105,7 @@ def get_suning_detail_code(url):
             page_num = int(re.findall(r"\d+\.?\d*", str(page))[0])
             driver.get(url)
             for page_n in range(2, page_num):
+                # 滚动操作
                 driver.execute_script(""" 
                             (function () { 
                                 var y = document.body.scrollTop; 
@@ -149,22 +151,19 @@ def get_suning_detail(url):
     selector = lxml.html.fromstring(html_code)
     goods_id = selector.xpath('//*[@id="product-list"]/ul/li/@id')
     for id in goods_id:
-        # # 商品id
+        # 商品id
         goods_id = id
         # 商品标题
-        goods_title = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/text()'.format(id))
+        goods_title = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/text()'.format(id))[0]
         # 商品卖点
-        goods_selling_point = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/em/text()'.format(id))
+        goods_selling_point = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/em/text()'.format(id))[0]
         # 商品特征2
-        goods_feature = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[3]/em/text()'.format(id))
+        feature = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[3]/em/text()'.format(id))
+        goods_feature = "+".join(feature)
         # 评价条数
-        evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))
-        print('商品id:', goods_id,
-              '商品标题：', goods_title,
-              '商品卖点：', goods_selling_point,
-              '商品特点：', goods_feature,
-              '商品评价条数：', evaluation_num)
-    time.sleep(1)
+        evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))[0]
+
+    return goods_id, goods_title, goods_selling_point, goods_feature, evaluation_num
 
 
 if __name__ == '__main__':

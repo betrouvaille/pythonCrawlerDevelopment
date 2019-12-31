@@ -132,18 +132,18 @@ def xpath_test():
     selector = lxml.html.fromstring(html)
     # 商品id
     goods_id = selector.xpath('//*[@id="product-list"]/ul/li/@id')
-    print(goods_id)
     for id in goods_id:
         # # 商品id
         goods_id = id
         # 商品标题
-        goods_title = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/text()'.format(id))
+        goods_title = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/text()'.format(id))[0]
         # 商品卖点
-        goods_selling_point = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/em/text()'.format(id))
+        goods_selling_point = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/em/text()'.format(id))[0]
         # 商品特征2
-        goods_feature = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[3]/em/text()'.format(id))
+        feature = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[3]/em/text()'.format(id))
+        goods_feature = "+".join(feature)
         # 评价条数
-        evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))
+        evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))[0]
         print('商品id:', goods_id,
               '商品标题：', goods_title,
               '商品卖点：', goods_selling_point,
