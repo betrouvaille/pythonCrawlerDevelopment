@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49f26cc2-1fe0-4b62-94e2-a77a2213cde1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/lfl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lfl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lfl_readbook/chapter7/ajax.py" beforeDir="false" afterPath="$PROJECT_DIR$/lfl_readbook/chapter7/ajax.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +19,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>1099</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -32,6 +30,9 @@
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1VpcwzLjNvO7a8eNa4awzrpEtAu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,17 +44,40 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\python_start_20191206\lfl" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\python_start_20191206\lfl" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ywk_dissertation" />
+      <recent name="$PROJECT_DIR$/lfl_readbook" />
+      <recent name="D:\python_start_20191206\lfl" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.ywk_practice">
+  <component name="RunManager" selected="Python.ajax">
+    <configuration name="ajax" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lfl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lfl_readbook/chapter7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lfl_readbook/chapter7/ajax.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="get_suning_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lfl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,6 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ajax" />
         <item itemvalue="Python.ywk_practice" />
         <item itemvalue="Python.get_suning_data" />
         <item itemvalue="Python.text1" />
@@ -347,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577782733273</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="修改了仓库结构，让根目录更干净">
+      <created>1577954195510</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1577954195510</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -358,21 +390,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="修改了仓库结构，让根目录更干净" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了仓库结构，让根目录更干净" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1577953825777">
+    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1577954195412">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577953825777" />
+    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577954195412" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1577953867032">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577953867032" />
+    <state width="1420" height="152" key="GridCell.Tab.0.bottom" timestamp="1577958539313">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1420" height="152" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577958539313" />
+    <state width="1420" height="152" key="GridCell.Tab.0.center" timestamp="1577958539312">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1420" height="152" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577958539312" />
+    <state width="1420" height="152" key="GridCell.Tab.0.left" timestamp="1577958539311">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1420" height="152" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577958539311" />
+    <state width="1420" height="152" key="GridCell.Tab.0.right" timestamp="1577958539313">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1420" height="152" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577958539313" />
+    <state x="359" y="70" key="SettingsEditor" timestamp="1577955246673">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="359" y="70" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577955246673" />
     <state x="494" y="94" key="VCS.ChangeListViewerDialog" timestamp="1577953857883">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="494" y="94" key="VCS.ChangeListViewerDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577953857883" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1577954197116">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577954197116" />
     <state x="521" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577953867027">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
