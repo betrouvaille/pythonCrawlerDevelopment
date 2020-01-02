@@ -3,76 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="49f26cc2-1fe0-4b62-94e2-a77a2213cde1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_suning/get_suning_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_suning/get_suning_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ywk_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/ywk_practice.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_suning/get_suning_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="135" column="31" lean-forward="true" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="385">
-                <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Animal_farm/nongchang.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ywk_practice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="165" column="8" lean-forward="true" selection-start-line="165" selection-start-column="8" selection-end-line="178" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://F:/python/Lib/site-packages/lxml/html/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="735" selection-start-line="735" selection-end-line="735" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,23 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/get_damai/get_damai.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/test" />
-        <option value="$PROJECT_DIR$/Animal_farm/text1.html" />
-        <option value="$PROJECT_DIR$/Animal_farm/text1.py" />
-        <option value="$PROJECT_DIR$/Animal_farm/ywk_practice.py" />
-        <option value="$PROJECT_DIR$/Animal_farm/nongchang.py" />
-        <option value="$PROJECT_DIR$/ywk_practice.py" />
-        <option value="$PROJECT_DIR$/get_suning/get_suning_data.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="659" />
@@ -113,34 +32,10 @@
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1VpcwzLjNvO7a8eNa4awzrpEtAu" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lfl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lfl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lfl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lfl" type="462c0819:PsiDirectoryNode" />
-              <item name="Animal_farm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lfl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lfl" type="462c0819:PsiDirectoryNode" />
-              <item name="get_suning" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -157,18 +52,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\python_start_20191206\lfl" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.ywk_practice">
     <configuration name="get_suning_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -250,7 +133,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ywk_practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ywk_dissertation/ywk_practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,6 +150,18 @@
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -458,32 +353,6 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="90410000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09488273" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23861171" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4262473" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32939914" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26030368" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -492,323 +361,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1577953822509">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1577953825777">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577953822509" />
-    <state x="494" y="94" key="VCS.ChangeListViewerDialog" timestamp="1577953816561">
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577953825777" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1577953867032">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="494" y="94" key="VCS.ChangeListViewerDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577953816561" />
-    <state x="521" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577953743898">
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577953867032" />
+    <state x="494" y="94" key="VCS.ChangeListViewerDialog" timestamp="1577953857883">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="521" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577953743898" />
+    <state x="494" y="94" key="VCS.ChangeListViewerDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577953857883" />
+    <state x="521" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577953867027">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="521" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577953867027" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lfl$text1.coverage" NAME="text1 Coverage Results" MODIFIED="1576575887569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Animal_farm" />
     <SUITE FILE_PATH="coverage/lfl$test.coverage" NAME="test Coverage Results" MODIFIED="1576220446135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lfl$get_suning_data.coverage" NAME="get_suning_data Coverage Results" MODIFIED="1577778041728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_suning" />
     <SUITE FILE_PATH="coverage/lfl$ywk_practice.coverage" NAME="ywk_practice Coverage Results" MODIFIED="1577784151409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Animal_farm/动物农场/ 第一章.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter6/redis_try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter6/mongodb_try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter6/crawler_novel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter5/xpath_bs4_damai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/get_damai/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_damai/get_damai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Animal_farm/text1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="3183" column="5" lean-forward="true" selection-start-line="3183" selection-start-column="5" selection-end-line="3183" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="e#13200#13229#0" expanded="true" />
-            <element signature="e#13830#13859#0" expanded="true" />
-            <element signature="e#14441#14470#0" expanded="true" />
-            <element signature="e#15071#15100#0" expanded="true" />
-            <element signature="e#15636#15665#0" expanded="true" />
-            <element signature="e#16196#16225#0" expanded="true" />
-            <element signature="e#16804#16833#0" expanded="true" />
-            <element signature="e#17413#17442#0" expanded="true" />
-            <element signature="e#18013#18042#0" expanded="true" />
-            <element signature="e#18618#18647#0" expanded="true" />
-            <element signature="e#19223#19252#0" expanded="true" />
-            <element signature="e#19822#19851#0" expanded="true" />
-            <element signature="e#20430#20459#0" expanded="true" />
-            <element signature="e#21076#21105#0" expanded="true" />
-            <element signature="e#21724#21753#0" expanded="true" />
-            <element signature="e#22369#22398#0" expanded="true" />
-            <element signature="e#22961#22990#0" expanded="true" />
-            <element signature="e#23519#23548#0" expanded="true" />
-            <element signature="e#24078#24107#0" expanded="true" />
-            <element signature="e#24692#24721#0" expanded="true" />
-            <element signature="e#25322#25351#0" expanded="true" />
-            <element signature="e#25886#25915#0" expanded="true" />
-            <element signature="e#26490#26519#0" expanded="true" />
-            <element signature="e#27045#27074#0" expanded="true" />
-            <element signature="e#27667#27696#0" expanded="true" />
-            <element signature="e#28231#28260#0" expanded="true" />
-            <element signature="e#28791#28820#0" expanded="true" />
-            <element signature="e#29396#29425#0" expanded="true" />
-            <element signature="e#29996#30025#0" expanded="true" />
-            <element signature="e#30559#30588#0" expanded="true" />
-            <element signature="e#31124#31153#0" expanded="true" />
-            <element signature="e#31700#31729#0" expanded="true" />
-            <element signature="e#32302#32331#0" expanded="true" />
-            <element signature="e#32929#32958#0" expanded="true" />
-            <element signature="e#33531#33560#0" expanded="true" />
-            <element signature="e#34102#34131#0" expanded="true" />
-            <element signature="e#34663#34692#0" expanded="true" />
-            <element signature="e#35257#35286#0" expanded="true" />
-            <element signature="e#35852#35881#0" expanded="true" />
-            <element signature="e#36444#36473#0" expanded="true" />
-            <element signature="e#37035#37064#0" expanded="true" />
-            <element signature="e#37634#37663#0" expanded="true" />
-            <element signature="e#38239#38268#0" expanded="true" />
-            <element signature="e#38842#38871#0" expanded="true" />
-            <element signature="e#39464#39493#0" expanded="true" />
-            <element signature="e#40072#40101#0" expanded="true" />
-            <element signature="e#40644#40673#0" expanded="true" />
-            <element signature="e#41253#41282#0" expanded="true" />
-            <element signature="e#41827#41856#0" expanded="true" />
-            <element signature="e#42377#42406#0" expanded="true" />
-            <element signature="e#42978#43007#0" expanded="true" />
-            <element signature="e#43572#43601#0" expanded="true" />
-            <element signature="e#44176#44205#0" expanded="true" />
-            <element signature="e#44788#44817#0" expanded="true" />
-            <element signature="e#45401#45430#0" expanded="true" />
-            <element signature="e#45987#46016#0" expanded="true" />
-            <element signature="e#46597#46626#0" expanded="true" />
-            <element signature="e#47222#47251#0" expanded="true" />
-            <element signature="e#47830#47859#0" expanded="true" />
-            <element signature="e#48396#48425#0" expanded="true" />
-            <element signature="e#48976#49005#0" expanded="true" />
-            <element signature="e#49524#49553#0" expanded="true" />
-            <element signature="e#50123#50152#0" expanded="true" />
-            <element signature="e#50735#50764#0" expanded="true" />
-            <element signature="e#51301#51330#0" expanded="true" />
-            <element signature="e#51861#51890#0" expanded="true" />
-            <element signature="e#52466#52495#0" expanded="true" />
-            <element signature="e#53055#53084#0" expanded="true" />
-            <element signature="e#53696#53725#0" expanded="true" />
-            <element signature="e#54328#54357#0" expanded="true" />
-            <element signature="e#54944#54973#0" expanded="true" />
-            <element signature="e#55501#55530#0" expanded="true" />
-            <element signature="e#56007#56036#0" expanded="true" />
-            <element signature="e#56528#56557#0" expanded="true" />
-            <element signature="e#57078#57107#0" expanded="true" />
-            <element signature="e#57569#57598#0" expanded="true" />
-            <element signature="e#58051#58080#0" expanded="true" />
-            <element signature="e#58589#58618#0" expanded="true" />
-            <element signature="e#59125#59154#0" expanded="true" />
-            <element signature="e#59657#59686#0" expanded="true" />
-            <element signature="e#60179#60208#0" expanded="true" />
-            <element signature="e#60677#60706#0" expanded="true" />
-            <element signature="e#61191#61220#0" expanded="true" />
-            <element signature="e#61694#61723#0" expanded="true" />
-            <element signature="e#62231#62260#0" expanded="true" />
-            <element signature="e#62754#62783#0" expanded="true" />
-            <element signature="e#63269#63298#0" expanded="true" />
-            <element signature="e#63778#63807#0" expanded="true" />
-            <element signature="e#64273#64302#0" expanded="true" />
-            <element signature="e#64778#64807#0" expanded="true" />
-            <element signature="e#65276#65305#0" expanded="true" />
-            <element signature="e#65774#65803#0" expanded="true" />
-            <element signature="e#66254#66283#0" expanded="true" />
-            <element signature="e#66731#66760#0" expanded="true" />
-            <element signature="e#67267#67296#0" expanded="true" />
-            <element signature="e#67781#67810#0" expanded="true" />
-            <element signature="e#68320#68349#0" expanded="true" />
-            <element signature="e#68853#68882#0" expanded="true" />
-            <element signature="e#69351#69380#0" expanded="true" />
-            <element signature="e#69875#69904#0" expanded="true" />
-            <element signature="e#70445#70474#0" expanded="true" />
-            <element signature="e#70976#71005#0" expanded="true" />
-            <element signature="e#71460#71489#0" expanded="true" />
-            <element signature="e#71931#71960#0" expanded="true" />
-            <element signature="e#72452#72481#0" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#100381#100387#0" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#12;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#12;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#16;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#16;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#17;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#17;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#18;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#18;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#19;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#19;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#20;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#20;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#21;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#21;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#22;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#22;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#23;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#23;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#24;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#24;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#25;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#25;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#26;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#26;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#27;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#27;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#28;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#28;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#29;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#em#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#li#29;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="332" selection-start-line="332" selection-end-line="332" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/multiprocessing/pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Animal_farm/nongchang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/lxml/html/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="735" selection-start-line="735" selection-end-line="735" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ywk_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="165" column="8" lean-forward="true" selection-start-line="165" selection-start-column="8" selection-end-line="178" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_suning/get_suning_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="135" column="31" lean-forward="true" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="385">
-            <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
