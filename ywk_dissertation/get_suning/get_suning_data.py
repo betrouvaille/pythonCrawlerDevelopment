@@ -148,23 +148,42 @@ def get_suning_detail(html_code):
     """
     selector = lxml.html.fromstring(html_code)
     goods_id = selector.xpath('//*[@id="product-list"]/ul/li/@id')
+    goods_id_list = []
+    goods_title_list = []
+    goods_selling_point_list = []
+    goods_feature_list = []
+    evaluation_num_list = []
     for id in goods_id:
         # # 商品id
         goods_id = id
+        goods_id_list.append(goods_id)
         # 商品标题
         goods_title = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/text()'.format(id))[0]
+        goods_title_list.append(goods_title)
         # 商品卖点
         goods_selling_point = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/em/text()'.format(id))[0]
-        # 商品特征2
+        goods_selling_point_list.append(goods_selling_point)
+        # 商品特征
         feature = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[3]/em/text()'.format(id))
+        # 将list内容合并
         goods_feature = "+".join(feature)
+        goods_feature_list.append(goods_feature)
         # 评价条数
         try:
             evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))[0]
         except IndexError:
             evaluation_num = '暂无评价'
+        evaluation_num_list.append(evaluation_num)
+        # 类别id
+        threegroup_id = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[1]/span/@threegroup_id'.format(id))
+        # 品牌id
+        brand_id = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[1]/span/@brand_id'.format(id))
 
-    return goods_id, goods_title, goods_selling_point, goods_feature, evaluation_num
+    for id in goods_id_list:
+        for callback_ in range(0, 10000):
+            _callback = '000000000' + str(callback_).zfill(4)
+            request_url = 'https://ds.suning.com/ds/generalForTile/' + '0000000' + str(id).split('-')[
+            0] + '_' + brand_id + '-010-2-0000000000-1--' + _callback + '.jsonp?callback=' + _callback
 
 
 if __name__ == '__main__':

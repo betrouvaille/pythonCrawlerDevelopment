@@ -162,22 +162,35 @@ def xpath_test():
     # 商品id
     goods_id = selector.xpath('//*[@id="product-list"]/ul/li/@id')
 
+    goods_id_list = []
+    goods_title_list = []
+    goods_selling_point_list = []
+    goods_feature_list = []
+    evaluation_num_list = []
     for id in goods_id:
         # # 商品id
         goods_id = id
+        goods_id_list.append(goods_id)
         # 商品标题
         goods_title = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/text()'.format(id))[0]
+        goods_title_list.append(goods_title)
         # 商品卖点
         goods_selling_point = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[2]/a/em/text()'.format(id))[0]
-        # 商品特征2
+        goods_selling_point_list.append(goods_selling_point)
+        # 商品特征
         feature = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[3]/em/text()'.format(id))
+        # 将list内容合并
         goods_feature = "+".join(feature)
+        goods_feature_list.append(goods_feature)
         # 评价条数
         try:
             evaluation_num = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[4]/div/a/i/text()'.format(id))[0]
         except IndexError:
             evaluation_num = '暂无评价'
-        print(goods_id)
+        evaluation_num_list.append(evaluation_num)
+        threegroup_id = selector.xpath('//*[@id="0070094634-11370507783"]/div/div/div[2]/div[1]/span/@threegroup_id')
+        print(threegroup_id)
+    print(len(goods_id_list))
     # input_f = driver.find_element_by_id('bottomPage')
     # # 找到确定按钮，点击确定
     # submit = driver.find_element_by_xpath('//*[@id="bottom_pager"]/div/a[7]')
@@ -189,5 +202,17 @@ def xpath_test():
     # time.sleep(200)
 
 
+def test():
+    html = requests.get('https://ds.suning.com/ds/generalForTile/000000011177564275____R1901001_000060864-010-2-0000000000-1--ds000000000001111.jsonp?callback=ds00000000011111111').content.decode()
+    print(html)
+    # for callback_ in range(0, 10000):
+    #     _callback = '000000000' + str(callback_).zfill(4)
+    #     request_url = 'https://ds.suning.com/ds/generalForTile/' + '0000000' + str(id).split('-')[
+    #         0] + '_' + brand_id + '-010-2-0000000000-1--' + _callback + '.jsonp?callback=' + _callback
+    # a='qweqwe_wqeqweq'
+    # b=a.split('_')[0]
+    # print(b)
+
+
 if __name__ == '__main__':
-    xpath_test()
+    test()
