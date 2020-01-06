@@ -1,3 +1,4 @@
+import json
 import re
 import time
 import pymysql
@@ -97,8 +98,6 @@ def get_suning_detail_code(url):
         pass
     else:
         page = selector.xpath('//*[@id="bottom_pager"]/div/span[3]/text()')
-        print(type(page), page)
-        print(len(page))
         if len(page) == 0:
             print('该品类无商品或只有一页')
         else:
@@ -144,7 +143,7 @@ def get_suning_detail_code(url):
 def get_suning_detail(html_code):
     """
     开始获取数据，商品标题，参数，等
-    :return:
+    :return:商品id,商品标题,商品卖点,商品特征,评价条数,价格de list
     """
     selector = lxml.html.fromstring(html_code)
     goods_id = selector.xpath('//*[@id="product-list"]/ul/li/@id')
@@ -178,15 +177,22 @@ def get_suning_detail(html_code):
         threegroup_id = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[1]/span/@threegroup_id'.format(id))
         # 品牌id
         brand_id = selector.xpath('//*[@id="{}"]/div/div/div[2]/div[1]/span/@brand_id'.format(id))
-
+    goods_price_list = []
     for id in goods_id_list:
-        for callback_ in range(0, 10000):
-            _callback = '000000000' + str(callback_).zfill(4)
-            request_url = 'https://ds.suning.com/ds/generalForTile/' + '0000000' + str(id).split('-')[
-            0] + '_' + brand_id + '-010-2-0000000000-1--' + _callback + '.jsonp?callback=' + _callback
+        _callback = '0000000000001'
+        request_url = 'https://ds.suning.com/ds/generalForTile/' + '0000000' + str(id).split('-')[
+            0] + '_' + threegroup_id + '_' +brand_id + '-010-2-0000000000-1--' + _callback + '.jsonp?callback=' + _callback
+        # 包含价格的原始json
+        price_josn_dict = get_suning_html(request_url)[18:-2]
+        # 处理这个json，得到价格
+        goods_price = price_josn_dict['rs'][0]['price']
+        goods_price_list.append(goods_price)
+    return goods_id_list, goods_title_list, goods_selling_point_list, goods_feature_list, evaluation_num_list, goods_price_list
 
 
 if __name__ == '__main__':
     url_list = get_suning_url(start_url)
     pool = Pool(1)
-    pool.map(get_suning_detail_code, url_list)
+    html_code = pool.map(get_suning_detail_code, url_list)
+    goods_id_list, goods_title_list, goods_selling_point_list, goods_feature_list, evaluation_num_list, goods_price_list = get_suning_detail(
+        html_code)

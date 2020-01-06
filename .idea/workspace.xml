@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49f26cc2-1fe0-4b62-94e2-a77a2213cde1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lfl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lfl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ywk_dissertation/Animal_farm/text1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ywk_dissertation/Animal_farm/text1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ywk_dissertation/get_suning/get_suning_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ywk_dissertation/get_suning/get_suning_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ywk_dissertation/ywk_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/ywk_dissertation/ywk_practice.py" afterDir="false" />
     </list>
@@ -22,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="741">
+              <first_editor relative-caret-position="663">
                 <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               </first_editor>
               <second_editor />
@@ -30,237 +26,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ywk_dissertation/get_suning/get_suning_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+            <state relative-caret-position="1103">
+              <caret line="169" column="14" lean-forward="true" selection-start-line="169" selection-start-column="14" selection-end-line="169" selection-end-column="14" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ywk_dissertation/ywk_practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+            <state relative-caret-position="502">
+              <caret line="703" column="19" selection-start-line="703" selection-start-column="19" selection-end-line="703" selection-end-column="37" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ywk_dissertation/Animal_farm/text1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7119">
-              <caret line="6349" column="8" lean-forward="true" selection-start-line="6349" selection-start-column="8" selection-end-line="6349" selection-end-column="8" />
-              <folding>
-                <element signature="e#6276#6297#0" expanded="true" />
-                <element signature="e#7011#7032#0" expanded="true" />
-                <element signature="e#7654#7675#0" expanded="true" />
-                <element signature="e#7886#7907#0" expanded="true" />
-                <element signature="e#8987#9008#0" expanded="true" />
-                <element signature="e#9220#9241#0" expanded="true" />
-                <element signature="e#9669#9690#0" expanded="true" />
-                <element signature="e#12884#12905#0" expanded="true" />
-                <element signature="e#14153#14174#0" expanded="true" />
-                <element signature="e#17041#17062#0" expanded="true" />
-                <element signature="e#18610#18631#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="e#35396#35425#0" expanded="true" />
-                <element signature="e#36541#36570#0" expanded="true" />
-                <element signature="e#37667#37696#0" expanded="true" />
-                <element signature="e#38812#38841#0" expanded="true" />
-                <element signature="e#39855#39884#0" expanded="true" />
-                <element signature="e#40893#40922#0" expanded="true" />
-                <element signature="e#42016#42045#0" expanded="true" />
-                <element signature="e#43103#43132#0" expanded="true" />
-                <element signature="e#44181#44210#0" expanded="true" />
-                <element signature="e#45264#45293#0" expanded="true" />
-                <element signature="e#46347#46376#0" expanded="true" />
-                <element signature="e#47424#47453#0" expanded="true" />
-                <element signature="e#48510#48539#0" expanded="true" />
-                <element signature="e#49671#49700#0" expanded="true" />
-                <element signature="e#50797#50826#0" expanded="true" />
-                <element signature="e#51957#51986#0" expanded="true" />
-                <element signature="e#53027#53056#0" expanded="true" />
-                <element signature="e#54063#54092#0" expanded="true" />
-                <element signature="e#55100#55129#0" expanded="true" />
-                <element signature="e#56229#56258#0" expanded="true" />
-                <element signature="e#57337#57366#0" expanded="true" />
-                <element signature="e#58379#58408#0" expanded="true" />
-                <element signature="e#59461#59490#0" expanded="true" />
-                <element signature="e#60494#60523#0" expanded="true" />
-                <element signature="e#61594#61623#0" expanded="true" />
-                <element signature="e#62636#62665#0" expanded="true" />
-                <element signature="e#63674#63703#0" expanded="true" />
-                <element signature="e#64757#64786#0" expanded="true" />
-                <element signature="e#65835#65864#0" expanded="true" />
-                <element signature="e#66876#66905#0" expanded="true" />
-                <element signature="e#67919#67948#0" expanded="true" />
-                <element signature="e#68973#69002#0" expanded="true" />
-                <element signature="e#70053#70082#0" expanded="true" />
-                <element signature="e#71158#71187#0" expanded="true" />
-                <element signature="e#72211#72240#0" expanded="true" />
-                <element signature="e#73250#73279#0" expanded="true" />
-                <element signature="e#74322#74351#0" expanded="true" />
-                <element signature="e#75395#75424#0" expanded="true" />
-                <element signature="e#76465#76494#0" expanded="true" />
-                <element signature="e#77534#77563#0" expanded="true" />
-                <element signature="e#78613#78642#0" expanded="true" />
-                <element signature="e#79691#79720#0" expanded="true" />
-                <element signature="e#80774#80803#0" expanded="true" />
-                <element signature="e#81875#81904#0" expanded="true" />
-                <element signature="e#82961#82990#0" expanded="true" />
-                <element signature="e#84053#84082#0" expanded="true" />
-                <element signature="e#85103#85132#0" expanded="true" />
-                <element signature="e#86133#86162#0" expanded="true" />
-                <element signature="e#87177#87206#0" expanded="true" />
-                <element signature="e#88242#88271#0" expanded="true" />
-                <element signature="e#89324#89353#0" expanded="true" />
-                <element signature="e#90414#90443#0" expanded="true" />
-                <element signature="e#91458#91487#0" expanded="true" />
-                <element signature="e#92543#92572#0" expanded="true" />
-                <element signature="e#93628#93657#0" expanded="true" />
-                <element signature="e#94717#94746#0" expanded="true" />
-                <element signature="e#95882#95911#0" expanded="true" />
-                <element signature="e#96991#97020#0" expanded="true" />
-                <element signature="e#98033#98062#0" expanded="true" />
-                <element signature="e#99070#99099#0" expanded="true" />
-                <element signature="e#100153#100182#0" expanded="true" />
-                <element signature="e#101256#101285#0" expanded="true" />
-                <element signature="e#102351#102380#0" expanded="true" />
-                <element signature="e#103387#103416#0" expanded="true" />
-                <element signature="e#104500#104529#0" expanded="true" />
-                <element signature="e#105586#105615#0" expanded="true" />
-                <element signature="e#106560#106589#0" expanded="true" />
-                <element signature="e#107556#107585#0" expanded="true" />
-                <element signature="e#108493#108522#0" expanded="true" />
-                <element signature="e#109421#109450#0" expanded="true" />
-                <element signature="e#110405#110434#0" expanded="true" />
-                <element signature="e#111387#111416#0" expanded="true" />
-                <element signature="e#112358#112387#0" expanded="true" />
-                <element signature="e#113334#113363#0" expanded="true" />
-                <element signature="e#114300#114329#0" expanded="true" />
-                <element signature="e#115242#115271#0" expanded="true" />
-                <element signature="e#116197#116226#0" expanded="true" />
-                <element signature="e#117161#117190#0" expanded="true" />
-                <element signature="e#118149#118178#0" expanded="true" />
-                <element signature="e#119095#119124#0" expanded="true" />
-                <element signature="e#120046#120075#0" expanded="true" />
-                <element signature="e#121019#121048#0" expanded="true" />
-                <element signature="e#121951#121980#0" expanded="true" />
-                <element signature="e#122933#122962#0" expanded="true" />
-                <element signature="e#123866#123895#0" expanded="true" />
-                <element signature="e#124816#124845#0" expanded="true" />
-                <element signature="e#125801#125830#0" expanded="true" />
-                <element signature="e#126775#126804#0" expanded="true" />
-                <element signature="e#127717#127746#0" expanded="true" />
-                <element signature="e#128642#128671#0" expanded="true" />
-                <element signature="e#129559#129588#0" expanded="true" />
-                <element signature="e#130498#130527#0" expanded="true" />
-                <element signature="e#131442#131471#0" expanded="true" />
-                <element signature="e#132452#132481#0" expanded="true" />
-                <element signature="e#133440#133469#0" expanded="true" />
-                <element signature="e#134376#134405#0" expanded="true" />
-                <element signature="e#139523#139546#0" expanded="true" />
-                <element signature="e#139800#139823#0" expanded="true" />
-                <element signature="e#143791#143814#0" expanded="true" />
-                <element signature="e#144068#144091#0" expanded="true" />
-                <element signature="e#171491#171540#0" expanded="true" />
-                <element signature="e#172047#172069#0" expanded="true" />
-                <element signature="e#172227#172249#0" expanded="true" />
-                <element signature="e#174112#174118#0" expanded="true" />
-                <element signature="e#174268#174290#0" expanded="true" />
-                <element signature="e#174913#174962#0" expanded="true" />
-                <element signature="e#175469#175491#0" expanded="true" />
-                <element signature="e#175649#175671#0" expanded="true" />
-                <element signature="e#180352#180372#0" expanded="true" />
-                <element signature="e#185234#185254#0" expanded="true" />
-                <element signature="e#190703#190723#0" expanded="true" />
-                <element signature="e#193368#193388#0" expanded="true" />
-                <element signature="e#198599#198619#0" expanded="true" />
-                <element signature="e#201245#201265#0" expanded="true" />
-                <element signature="e#206448#206468#0" expanded="true" />
-                <element signature="e#208059#208079#0" expanded="true" />
-                <element signature="e#213494#213514#0" expanded="true" />
-                <element signature="e#217677#217697#0" expanded="true" />
-                <element signature="e#222961#222981#0" expanded="true" />
-                <element signature="e#225634#225654#0" expanded="true" />
-                <element signature="e#230964#230984#0" expanded="true" />
-                <element signature="e#234402#234422#0" expanded="true" />
-                <element signature="e#239704#239724#0" expanded="true" />
-                <element signature="e#242396#242416#0" expanded="true" />
-                <element signature="e#247642#247662#0" expanded="true" />
-                <element signature="e#251771#251791#0" expanded="true" />
-                <element signature="e#256969#256989#0" expanded="true" />
-                <element signature="e#259591#259611#0" expanded="true" />
-                <element signature="e#264811#264831#0" expanded="true" />
-                <element signature="e#269724#269744#0" expanded="true" />
-                <element signature="e#274952#274972#0" expanded="true" />
-                <element signature="e#279085#279105#0" expanded="true" />
-                <element signature="e#284273#284293#0" expanded="true" />
-                <element signature="e#289903#289923#0" expanded="true" />
-                <element signature="e#295338#295358#0" expanded="true" />
-                <element signature="e#299472#299492#0" expanded="true" />
-                <element signature="e#304704#304724#0" expanded="true" />
-                <element signature="e#308857#308877#0" expanded="true" />
-                <element signature="e#314070#314090#0" expanded="true" />
-                <element signature="e#317421#317441#0" expanded="true" />
-                <element signature="e#322856#322876#0" expanded="true" />
-                <element signature="e#327039#327059#0" expanded="true" />
-                <element signature="e#332273#332293#0" expanded="true" />
-                <element signature="e#334896#334916#0" expanded="true" />
-                <element signature="e#340046#340066#0" expanded="true" />
-                <element signature="e#341639#341659#0" expanded="true" />
-                <element signature="e#346881#346901#0" expanded="true" />
-                <element signature="e#352544#352564#0" expanded="true" />
-                <element signature="e#357739#357759#0" expanded="true" />
-                <element signature="e#361147#361167#0" expanded="true" />
-                <element signature="e#366383#366403#0" expanded="true" />
-                <element signature="e#369029#369049#0" expanded="true" />
-                <element signature="e#374205#374225#0" expanded="true" />
-                <element signature="e#379954#379974#0" expanded="true" />
-                <element signature="e#385503#385523#0" expanded="true" />
-                <element signature="e#389663#389683#0" expanded="true" />
-                <element signature="e#394862#394882#0" expanded="true" />
-                <element signature="e#398255#398275#0" expanded="true" />
-                <element signature="e#403527#403547#0" expanded="true" />
-                <element signature="e#406198#406218#0" expanded="true" />
-                <element signature="e#411385#411405#0" expanded="true" />
-                <element signature="e#412986#413006#0" expanded="true" />
-                <element signature="e#418282#418302#0" expanded="true" />
-                <element signature="e#421716#421736#0" expanded="true" />
-                <element signature="e#426974#426994#0" expanded="true" />
-                <element signature="e#432637#432657#0" expanded="true" />
-                <element signature="e#437855#437875#0" expanded="true" />
-                <element signature="e#441359#441379#0" expanded="true" />
-                <element signature="e#447511#447529#0" expanded="true" />
-                <element signature="e#447661#447679#0" expanded="true" />
-                <element signature="e#447858#447876#0" expanded="true" />
-                <element signature="e#448010#448028#0" expanded="true" />
-                <element signature="e#448193#448211#0" expanded="true" />
-                <element signature="e#448402#448420#0" expanded="true" />
-                <element signature="e#448613#448631#0" expanded="true" />
-                <element signature="e#448782#448800#0" expanded="true" />
-                <element signature="e#449034#449052#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ywk_dissertation/Animal_farm/nongchang.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -297,23 +81,22 @@
         <option value="$PROJECT_DIR$/get_suning/get_suning_data.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ywk_dissertation/Animal_farm/text1.html" />
-        <option value="$PROJECT_DIR$/ywk_dissertation/get_suning/get_suning_data.py" />
         <option value="$PROJECT_DIR$/ywk_dissertation/ywk_practice.py" />
+        <option value="$PROJECT_DIR$/ywk_dissertation/get_suning/get_suning_data.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="659" />
-    <option name="y" value="38" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="240" />
+    <option name="y" value="130" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,6 +125,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,7 +134,7 @@
     <property name="last_opened_file_path" value="D:/get_suning/get_suning_data" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -372,7 +156,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ywk_practice (1)">
+  <component name="RunManager" selected="Python.get_suning_data (1)">
+    <configuration name="get_suning_data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lfl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ywk_dissertation/get_suning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ywk_dissertation/get_suning/get_suning_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="get_suning_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lfl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -387,28 +193,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_suning/get_suning_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lfl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -485,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_suning_data (1)" />
         <item itemvalue="Python.ywk_practice (1)" />
         <item itemvalue="Python.ywk_practice" />
         <item itemvalue="Python.get_suning_data" />
         <item itemvalue="Python.text1" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -522,6 +306,8 @@
       <workItem from="1577690483575" duration="639000" />
       <workItem from="1577691135210" duration="2860000" />
       <workItem from="1577757485165" duration="14900000" />
+      <workItem from="1578055189002" duration="1990000" />
+      <workItem from="1578121906349" duration="7121000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1575898889704</created>
@@ -677,23 +463,29 @@
       <option name="project" value="LOCAL" />
       <updated>1577782733273</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Update README.md">
+      <created>1578047587040</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578047587040</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102007000" />
+    <option name="totallyTimeSpent" value="111211000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1088" y="-488" width="1096" height="1896" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07675906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0945946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49566162" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4262473" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22190693" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4262202" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -719,10 +511,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lfl$text1.coverage" NAME="text1 Coverage Results" MODIFIED="1576575887569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Animal_farm" />
-    <SUITE FILE_PATH="coverage/lfl$ywk_practice__1_.coverage" NAME="ywk_practice (1) Coverage Results" MODIFIED="1578047525387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ywk_dissertation" />
+    <SUITE FILE_PATH="coverage/lfl$ywk_practice__1_.coverage" NAME="ywk_practice (1) Coverage Results" MODIFIED="1578123777182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ywk_dissertation" />
     <SUITE FILE_PATH="coverage/lfl$test.coverage" NAME="test Coverage Results" MODIFIED="1576220446135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lfl$get_suning_data.coverage" NAME="get_suning_data Coverage Results" MODIFIED="1577778041728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_suning" />
     <SUITE FILE_PATH="coverage/lfl$ywk_practice.coverage" NAME="ywk_practice Coverage Results" MODIFIED="1577784151409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lfl$get_suning_data__1_.coverage" NAME="get_suning_data (1) Coverage Results" MODIFIED="1578124899318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ywk_dissertation/get_suning" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Animal_farm/动物农场/ 第一章.txt" />
@@ -759,30 +552,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ywk_practice.py" />
     <entry file="file://$PROJECT_DIR$/get_suning/get_suning_data.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="741">
-            <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ywk_dissertation/Animal_farm/nongchang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ywk_dissertation/Animal_farm/text1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7119">
-          <caret line="6349" column="8" lean-forward="true" selection-start-line="6349" selection-start-column="8" selection-end-line="6349" selection-end-column="8" />
+        <state>
+          <caret line="6349" column="8" selection-start-line="6349" selection-start-column="8" selection-end-line="6349" selection-end-column="8" />
           <folding>
             <element signature="e#6276#6297#0" expanded="true" />
             <element signature="e#7011#7032#0" expanded="true" />
@@ -795,7 +568,6 @@
             <element signature="e#14153#14174#0" expanded="true" />
             <element signature="e#17041#17062#0" expanded="true" />
             <element signature="e#18610#18631#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
             <element signature="e#35396#35425#0" expanded="true" />
             <element signature="e#36541#36570#0" expanded="true" />
             <element signature="e#37667#37696#0" expanded="true" />
@@ -977,22 +749,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ywk_dissertation/get_suning/get_suning_data.py">
+    <entry file="file://$PROJECT_DIR$/ywk_dissertation/Animal_farm/nongchang.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+        <state>
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="663">
+            <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ywk_dissertation/ywk_practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+        <state relative-caret-position="502">
+          <caret line="703" column="19" selection-start-line="703" selection-start-column="19" selection-end-line="703" selection-end-column="37" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ywk_dissertation/get_suning/get_suning_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1103">
+          <caret line="169" column="14" lean-forward="true" selection-start-line="169" selection-start-column="14" selection-end-line="169" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
