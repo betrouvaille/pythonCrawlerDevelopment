@@ -181,7 +181,7 @@ def get_suning_detail(html_code):
     for id in goods_id_list:
         _callback = '0000000000001'
         request_url = 'https://ds.suning.com/ds/generalForTile/' + '0000000' + str(id).split('-')[
-            0] + '_' + threegroup_id + '_' +brand_id + '-010-2-0000000000-1--' + _callback + '.jsonp?callback=' + _callback
+            0] + '_' + threegroup_id + '_' + brand_id + '-010-2-0000000000-1--' + _callback + '.jsonp?callback=' + _callback
         # 包含价格的原始json
         price_josn_dict = get_suning_html(request_url)[18:-2]
         # 处理这个json，得到价格
